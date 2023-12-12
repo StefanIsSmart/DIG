@@ -214,7 +214,9 @@ class SimpleInteractionBlock(torch.nn.Module):
         h = self.final(h)
         return h
 
-
+"""
+ComE Net
+"""
 class ComENet(nn.Module):
     r"""
          The ComENet from the `"ComENet: Towards Complete and Efficient Message Passing for 3D Molecular Graphs" <https://arxiv.org/abs/2206.08515>`_ paper.
